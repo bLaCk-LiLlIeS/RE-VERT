@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+.top-text{
+    background-color: rgb(233, 233, 137);
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+}
+.head-part{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(245, 238, 230);
+   padding: 12px;
+   align-items: center;
+}
+.revert{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mid-part{
+    background-image: url(https://img.freepik.com/free-photo/top-view-plate-with-soap-cosmetic-products_23-2148287674.jpg?w=1060&t=st=1681205088~exp=1681205688~hmac=a59566104ff7ecfc815dc254ddf852d8acc8ababd519b5ed728f05c88f9597f2);
+background-size: cover;
+width: 100%;
+height: 90vh;
+margin: 0;
+text-align: center;
+color: rgb(219, 214, 161);
+
+
+}
+.revert{
+    font-size: 300px;
+}
+h3{
+    font-size: 35px;
+}
+.shop{
+    background-color:rgb(219, 214, 161) ;
+    border: none;
+    color: rgb(111, 65, 65);
+    padding: 150x;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 50px;
+}
+
+/* page-02 */
+.container{
+    background-color:rgb(245, 238, 230);
+     margin: 0 8rem;
+     padding: 1rem;
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+  }
+ /* .carousel{
+    white-space: nowrap;
+
+} */
+.carousel{
+    /* width: 100vw; */
+    display: flex;
+   gap: 4px;
+    overflow-x: scroll;
+  
+}
+.carousel img{
+    height: 400px;
+    /* width: calc(100%/4); */
+    padding: 4px;
+    border-radius: 30px;
+    object-fit: cover;
+    /* background-color: #f1ede7; */
+}
+
+/* page-03 */
+.container-03{
+    background-color: #c4c197;
+    display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+}
+.page03Heading, .page03para{
+    color:#403f2b ;
+}
+button{
+    background-color:#403f2b ;
+    color: white;
+}
+.image02{
+width: 90%;
+height: 90%;
+padding: 10%;
+border-radius: 15%;
+}
+.para03{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+}
+.shop-now{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.page03Heading{
+    font-size: 75px;
+}
+
+
+/* page-04 */
+.container-04{
+    background-color: #fefaf0;
+   
+    color: #fffdc3;
+    }
+.kitchen-container{
+    background-image: url( https://static.wixstatic.com/media/c837a6_3206ec8f5dfb4c81add796c76d2763c4~mv2.jpg/v1/fill/w_490,h_654,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_3206ec8f5dfb4c81add796c76d2763c4~mv2.jpg );
+    width: 25%;
+    height: 50vh;
+   border-radius: 10%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-size: cover; 
+
+}
+.bath-container{
+    background-image: url(https://static.wixstatic.com/media/c837a6_42a4ed7ee2bd461683894a445140fe57~mv2.jpg/v1/crop/x_1022,y_0,w_3073,h_3360/fill/w_613,h_670,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/pexels-sarah-chai-7262410.jpg);
+    width: 25%;
+    height: 50vh;
+   border-radius: 10%;
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-size: cover; 
+
+}
+.onthego-container{
+    background-image: url(https://static.wixstatic.com/media/c837a6_e838ceeef1cc477ba4825b21f9f962ba~mv2.jpg/v1/fill/w_625,h_834,al_c,q_85,usm_0.66_1.00_0.01/c837a6_e838ceeef1cc477ba4825b21f9f962ba~mv2.webp);
+    width: 25%;
+    height: 50vh;
+   border-radius: 10%;
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  background-size: cover; 
+}
+.page-04{
+    display: flex;
+    justify-content: space-around;
+}
+ /* animation practice  */
+/* .animlft{
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    position: absolute;
+    left:45vw 
+}
+.animlft{
+    left:45vw ;
+display: none;
+}
+.animlft{
+display:block;
+
+}
+@keyframes slide{
+    0%{ left: 0; }
+    40%{transform: rotate(360deg);}
+60%{transform: rotate(360deg);}
+    100%{ left:45vw }
+    
+}
+.animr8{
+    animation-name: r8;
+    animation-duration: 4s;
+    animation-delay: inherit;  
+    position: absolute;
+
+}
+@keyframes r8
+{
+    from{ right: 0; }
+    to{ right:45vw; }
+    
+} */
+
+/* page 05 */
+svg{
+    height: 80px;
+    width: 80px;
+}
+.svgContainer{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding-top: 10vh;
+}
+.page05{
+    font-family: libre;
+    text-align: center;
+    width: 100vw;
+    background-color: #ddddcc;
+    /* width: 80vw; */
+}
+.page05 h1{
+    font-size: 65px;
+    padding-top: 3rem;
+}
+.page05 h5{
+    width: 43vw;
+    padding-top: 3vh;
+    margin: auto;
+    font-family: libre;
+    font-size:larger;
+}
+.pContainer{
+    /* position: absolute; */
+    /* left: 25vw; */
+    margin: auto;
+    padding-top: 10vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* justify-content: center; */
+width: 47vw;
+}
+.pContainer p{
+padding-top: 1rem;
+font-family: libre;
+font-weight: lighter;
+}
+.page05Button{
+    /* position: absolute; */
+    /* top: 100%; */
+    padding: 0.5rem 1.5rem;
+    margin: 3rem 0;
+    border-radius: 2rem;
+}
+/* page 06 */
+/* .page06{
+    background-image: url( "https://static.wixstatic.com/media/c837a6_95cb77319d8f4c42bc418d64166a088c~mv2.png/v1/fill/w_940,h_705,q_75/c837a6_95cb77319d8f4c42bc418d64166a088c~mv2.webp");
+    height: 170vh;
+    width: 100vw;
+    background-size: 90vw 150vh ;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding:5% 10%;
+    object-fit: contain; 
+    background-color: #fefaf0; */
+     /* border-radius: 20px; 
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px; */
+     /* background-position: center;  */
+/* } */
+.page06{
+    height: 130vh;
+    width: 100vw; 
+    margin: auto;
+    background-color: #fdf9ef;
+}
+.page06>img{
+    height: 120vh;
+    width: 85vw;
+    /* margin: auto; */
+    margin:10vh 7vw;
+    border-radius: 30px;
+}
+.page06 img:hover{
+    transform: scale(1.05);
+    transition: ease-in 1s;
+}
+.text{
+color: #fffdc3;
+font-family: libre;
+    /* position: fixed; */
+    position: absolute;
+    top: 450vh;
+    left: 13vw;
+}
+.text h4{
+font-size: 40px;
+font-weight: lighter;
+}
+.text h1{
+font-size: 190px;
+}
+.text button{
+    padding: 0.5rem 4rem;
+    border-radius: 30px;
+    background-color: white;
+    color:#403f2b ;
+   border: none;
+
+}
+
+/* footer */
+.footerPage{
+    background-color: #e8e59b;
+    margin-top: 2rem;
+    padding:1rem;
+}
+.emailInput input[type="email"]{
+width: 20vw;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid black;
+}
+.lists ul li{
+    list-style: none;
+    padding: 0.4rem;
+}
