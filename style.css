@@ -223,6 +223,10 @@ svg{
     font-family: libre;
     font-size:larger;
 }
+button:hover{
+background-color: #6b6a49;
+color: white;
+}
 .pContainer{
     /* position: absolute; */
     /* left: 25vw; */
